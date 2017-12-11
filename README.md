@@ -1,4 +1,4 @@
-#This is an Arduino 2.4GHz radio and IR transmitter
+# This is an Arduino 2.4GHz radio and IR transmitter
 ## Features:
 - IR transmitter for "LEGO" Powerfunctions and trains as well as for "MECCANO" motors
 - 2.4GHz radio transmitter for RC cars, helicopters etc.
@@ -16,6 +16,8 @@
 - Eagle schematic will follow
 - PONG Game included (runs much faster than on the Atmel AVR version)
 
+## Changelog:
+
 New in V 2.0:
 - Initial commit starting with V2.0, because the features are the same as in V2.0 for Atmel ARM MCU's
 - Pinout according to the software comments. An Eagle schematic will follow later
@@ -30,8 +32,11 @@ New in V 2.0:
 
 See pictures
 
-The Atmel AVR version:
+The biggest and the smallest vehicle:
 ![](https://github.com/TheDIYGuy999/RC_Transmitter/blob/master/1.jpg)
+
+The Atmel AVR version:
+![](https://github.com/TheDIYGuy999/RC_Transmitter/blob/master/Micro%20RC%20Transmitter.jpg)
 
 The STM32 test rig on a breadboard:
 ![](https://github.com/TheDIYGuy999/RC_Transmitter_STM32/blob/master/STM32_Test_Rig.jpg)
