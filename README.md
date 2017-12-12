@@ -22,7 +22,7 @@ New in V 2.0:
 - Initial commit starting with V2.0, because the features are the same as in V2.0 for Atmel ARM MCU's
 - Pinout according to the software comments. An Eagle schematic will follow later
 - Works together with my Atmel AVR based receivers or the transmitter in "Tester Mode"
-- OLED now driven the u8g2 library in "full buffer" mode. This is much faster, but requires more RAM (no problem on the STM32)
+- OLED now driven by the u8g2 library in "full buffer" mode. This is much faster, but requires more RAM (no problem on the STM32)
 - Lego IR ist tested
 - Meccano IR should work in theory, but the signal was only tested with an oscilloscope
 - The emulated STM32 EEPROM seems to work properly, but the required "eepromHandler.h" is entirely new
