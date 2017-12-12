@@ -3,8 +3,9 @@
 - IR transmitter for "LEGO" Powerfunctions and trains as well as for "MECCANO" motors
 - 2.4GHz radio transmitter for RC cars, helicopters etc.
 - 4 analog axes, 2 mode switches (joystick buttons)
+- 1 potentiometer for adjustments like the MRSC stability control
 - 4 push buttons for transmission mode and vehicle selection as well as menu navigation
-- 5 seletcable vehicle addresses, so you can use it for more than one vehicle
+- 10 seletcable vehicle addresses, so you can use it for more than one vehicle
 - 3.3V, 72MHz STM32F103C8T6 ARM board
 - Atmel AVR version see: https://github.com/TheDIYGuy999/RC_Transmitter
 - 2.4GHz NRF24L01 radio module
