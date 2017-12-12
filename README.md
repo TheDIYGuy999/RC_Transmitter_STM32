@@ -1,4 +1,4 @@
-# This is an Arduino 2.4GHz radio and IR transmitter
+# This is an Arduino 2.4GHz radio and IR transmitter for STM32
 ## Features:
 - IR transmitter for "LEGO" Powerfunctions and trains as well as for "MECCANO" motors
 - 2.4GHz radio transmitter for RC cars, helicopters etc.
