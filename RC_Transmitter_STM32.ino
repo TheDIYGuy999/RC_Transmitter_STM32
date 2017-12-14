@@ -38,6 +38,8 @@ const float codeVersion = 2.0; // Software revision
 #include <statusLED.h> // https://github.com/TheDIYGuy999/statusLED
 #include <U8g2lib.h> // https://github.com/olikraus/u8g2
 
+// Tabs (.h files in the sketch directory) see further down
+
 //
 // =======================================================================================================
 // PIN ASSIGNMENTS & GLOBAL VARIABLES
