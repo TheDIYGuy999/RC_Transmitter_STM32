@@ -29,6 +29,9 @@ New in V 2.0:
 - The emulated STM32 EEPROM seems to work properly, but the required "eepromHandler.h" is entirely new
 - This version may still contain bugs. It was only tested on a breadboard
 
+New in V 2.01:
+- Battery voltage detection bug fixed
+
 ## Usage
 
 See pictures

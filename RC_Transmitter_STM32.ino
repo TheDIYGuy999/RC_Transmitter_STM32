@@ -12,7 +12,7 @@
 // NRF24L01+PA+LNA SMA radio modules with power amplifier are also supported
 // ATARI PONG game :-) Press the "Back" button during power on to start it
 
-const float codeVersion = 2.0; // Software revision
+const float codeVersion = 2.01; // Software revision
 
 //
 // =======================================================================================================
@@ -879,11 +879,7 @@ void checkBattery() {
   if (millis() - lastTrigger >= 500) {
     lastTrigger = millis();
 
-#if F_CPU == 16000000 // 16MHz / 5V
-    txBatt = (analogRead(BATTERY_DETECT_PIN) / 68.2) + diodeDrop; // 4095steps / 15V = 68.2 + diode drop!
-#else // 8MHz / 3.3V
-    txBatt = (analogRead(BATTERY_DETECT_PIN) / 103.33) + diodeDrop; // 4095steps / 9.9V = 103.33 + diode drop!
-#endif
+    txBatt = (analogRead(BATTERY_DETECT_PIN) / 413.64) + diodeDrop; // 4095steps / 9.9V = 413.64 + diode drop!
 
     txVcc = readVcc() / 1000.0 ;
 
